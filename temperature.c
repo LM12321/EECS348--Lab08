@@ -1,10 +1,25 @@
 //temperature.c
 
-#include <stdio.h>
-#include <stdbool.h>
+/*
+Name of Program: temperature.c
+Author: Logan Whitt
+KUID: 3152587
+
+Description: takes in a given temperature and converts it to a given other temperature unit and also tells the user what the weather update would look at that temperature
+Inputs: given temperature, it's unit, and a conversion unit
+Outputs: if it's hot or cold and the conversion results
+
+Collaborators: ChatGPT for general bug fixes
+
+Creation Date: 10/17/25 - 10/23/25
+*/
+
+#include <stdio.h>    //include input-output libraries
+#include <stdbool.h>    //include boolean libraries
 
 
 float farenheit_to_celcius(float temperature){
+    //convert given farenheit to celcius
     float new_temperature;  //initalize temperature
     new_temperature = (temperature - 32.0) * (5.0/9.0); //convert farenheit_to_celcius
     return new_temperature; //return the new temperature
@@ -162,5 +177,5 @@ int main(){
     }
     weather_fact(celcius_temperature);  //get the weather fact with the celcius temperature
 
-    return 0;
+    return 0; //exit out of main
 }
