@@ -5,7 +5,8 @@ Name of Program: football.c
 Author: Logan Whitt
 KUID: 3152587
 
-Description: asks for a given score int
+Description: takes in a target score and outputs all possible scoring combinations in a NFL game to reach that score (ignore the 1pt safety that has never been achieved before)
+Input: asks for a given score int
 Outputs: all of the different scoring combinations that could happen in a football game to reach that score
 
 Collaborators: ChatGPT for general bug fixing
