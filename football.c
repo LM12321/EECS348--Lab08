@@ -1,8 +1,7 @@
 //football.c
-//Assignment5.c
 
 /*
-Name of Program: EECS 348 Assignment5
+Name of Program: football.c
 Author: Logan Whitt
 KUID: 3152587
 
